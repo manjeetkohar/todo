@@ -1,0 +1,30 @@
+.task_panel{
+    display: flex;
+    position: absolute;
+    top: 50px;
+}
+.task_box{
+    width: 500px;
+    padding: 12px 4px;
+    margin: 10px 0;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.task_button{
+    background-color: white; /* Green */
+    border: 2px solid black;
+    border-radius: 9px;
+    color: black;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.task_button:hover {
+    background-color: red;
+}
